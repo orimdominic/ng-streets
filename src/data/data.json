@@ -1,0 +1,66 @@
+[
+  {
+    "state": "Lagos",
+    "key": "lagos",
+    "areas": [
+      {
+        "name": "Surulere LGA",
+        "type": "LGA",
+        "key": "surulere",
+        "streets": [
+          {
+            "name": "Haastrup",
+            "key": "haastrup"
+          },
+          {
+            "name": "Ayilara",
+            "key": "ayilara"
+          },
+          {
+            "name": "Ibidun",
+            "key": "ibidun"
+          },
+          {
+            "name": "Shifawu",
+            "key": "shifawu"
+          },
+          {
+            "name": "Karimu",
+            "key": "karimu"
+          },
+          {
+            "name": "Cole",
+            "key": "cole"
+          },
+          {
+            "name": "Apena",
+            "key": "apena"
+          },
+          {
+            "name": "Atunrashe",
+            "key": "atunrashe"
+          },
+          {
+            "name": "Akinhanmi",
+            "key": "akinhanmi"
+          }
+        ]
+      },
+      {
+        "name": "Itire-Ikate LCDA",
+        "type": "LCDA",
+        "key": "itire-ikate",
+        "streets": [
+          {
+            "name": "Olushola-Keku",
+            "key": "olushola-keku"
+          },
+          {
+            "name": "Nnobi",
+            "key": "nnobi"
+          }
+        ]
+      }
+    ]
+  }
+]
