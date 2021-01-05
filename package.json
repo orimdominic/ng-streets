@@ -34,7 +34,8 @@
     "build": "tsc && rollup -c rollup.config.js",
     "cleanup": "rm -rf dist",
     "publish": "yarn cleanup && yarn build && npm publish",
-    "test": "jest"
+    "test": "jest",
+    "prettify": "prettier --write ./src"
   },
   "files": [
     "dist",
@@ -44,5 +45,8 @@
     "yarn.lock"
   ],
   "source": "src/index.ts",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
 }
