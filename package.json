@@ -1,10 +1,11 @@
 {
   "name": "ng-streets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "umd": "dist/index.umd.js",
-  "homepage": "",
+  "homepage": "https://github.com/sudo-kaizen/ng-streets",
+  "repository": "git@github.com:sudo-kaizen/ng-streets.git",
   "description": "",
   "license": "MIT",
   "keywords": [
@@ -18,12 +19,14 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.1",
     "eslint": "^6.8.0",
-    "eslint-config-proton": "^1.0.7",
     "jest": "^26.6.3",
+    "np": "^7.2.0",
+    "prettier": "^2.2.1",
     "rollup": "^2.3.4",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^7.0.0",
@@ -33,9 +36,11 @@
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js",
     "cleanup": "rm -rf dist",
-    "publish": "yarn cleanup && yarn build && npm publish",
+    "prepub": "yarn cleanup && yarn prettify && yarn build",
+    "pub": "np",
     "test": "jest",
-    "prettify": "prettier --write ./src"
+    "test:watch": "jest --watch",
+    "prettify": "prettier --write ./src ./__tests__"
   },
   "files": [
     "dist",
@@ -46,7 +51,5 @@
   ],
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "prettier": "^2.2.1"
-  }
+  "dependencies": {}
 }

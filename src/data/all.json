@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Abia",
+    "areas": []
+  },
+  {
+    "name": "Adamawa",
+    "areas": []
+  },
+  {
+    "name": "Akwa Ibom",
+    "areas": []
+  },
+  {
+    "name": "Anambra",
+    "areas": []
+  },
+  {
+    "name": "Bauchi",
+    "areas": []
+  },
+  {
+    "name": "Bayelsa",
+    "areas": []
+  },
+  {
+    "name": "Benue",
+    "areas": []
+  },
+  {
+    "name": "Borno",
+    "areas": []
+  },
+  {
+    "name": "Cross River",
+    "areas": []
+  },
+  {
+    "name": "Delta",
+    "areas": []
+  },
+  {
+    "name": "Ebonyi",
+    "areas": []
+  },
+  {
+    "name": "Edo",
+    "areas": []
+  },
+  {
+    "name": "Ekiti",
+    "areas": []
+  },
+  {
+    "name": "Enugu",
+    "areas": []
+  },
+  {
+    "name": "Abuja",
+    "areas": []
+  },
+  {
+    "name": "Gombe",
+    "areas": []
+  },
+  {
+    "name": "Imo",
+    "areas": []
+  },
+  {
+    "name": "Jigawa",
+    "areas": []
+  },
+  {
+    "name": "Kaduna",
+    "areas": []
+  },
+  {
+    "name": "Kano",
+    "areas": []
+  },
+  {
+    "name": "Katsina",
+    "areas": []
+  },
+  {
+    "name": "Kebbi",
+    "areas": []
+  },
+  {
+    "name": "Kogi",
+    "areas": []
+  },
+  {
+    "name": "Kwara",
+    "areas": []
+  },
+  {
+    "name": "Lagos",
+    "areas": [
+      {
+        "name": "Surulere",
+        "type": "LGA",
+        "streets": [
+          {
+            "name": "Haastrup"
+          },
+          {
+            "name": "Ayilara"
+          },
+          {
+            "name": "Ibidun"
+          },
+          {
+            "name": "Shifawu"
+          },
+          {
+            "name": "Karimu"
+          },
+          {
+            "name": "Cole"
+          },
+          {
+            "name": "Apena"
+          },
+          {
+            "name": "Atunrashe"
+          }
+        ]
+      },
+      {
+        "name": "Itire-Ikate",
+        "type": "LCDA",
+        "streets": [
+          {
+            "name": "Olushola-Keku"
+          },
+          {
+            "name": "Nnobi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nassarawa",
+    "areas": []
+  },
+  {
+    "name": "Niger",
+    "areas": []
+  },
+  {
+    "name": "Ogun",
+    "areas": []
+  },
+  {
+    "name": "Ondo",
+    "areas": []
+  },
+  {
+    "name": "Osun",
+    "areas": []
+  },
+  {
+    "name": "Oyo",
+    "areas": []
+  },
+  {
+    "name": "Plateau",
+    "areas": []
+  },
+  {
+    "name": "Rivers",
+    "areas": []
+  },
+  {
+    "name": "Sokoto",
+    "areas": []
+  },
+  {
+    "name": "Taraba",
+    "areas": []
+  },
+  {
+    "name": "Yobe",
+    "areas": []
+  },
+  {
+    "name": "Zamfara",
+    "areas": []
+  }
+]

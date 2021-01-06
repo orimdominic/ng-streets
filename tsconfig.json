@@ -9,8 +9,9 @@
     "strict": true,
     "esModuleInterop": true,
     "lib": [ "es2017", "dom" ],
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/utils"],
   "exclude": ["node_modules", "dist", "__tests__"]
 }
