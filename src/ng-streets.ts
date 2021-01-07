@@ -15,9 +15,7 @@ const getStates = (): Array<string> => {
  * @returns {IState}   an object containing the name and areas data of a state
  */
 const getState = (name: string): IState | undefined => {
-  return data.find(
-    (state) => state.name.toLowerCase() === name.toLowerCase()
-  );
+  return data.find((state) => state.name.toLowerCase() === name.toLowerCase());
 };
 
 // /**

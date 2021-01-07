@@ -9,7 +9,9 @@ describe("getState", (): void => {
   });
 
   test(`contains randomly selected areas in ${testState}`, (): void => {
-    const testStateAreaNames = getState(testState)?.areas.map((area:IArea) => area.name)
+    const testStateAreaNames = getState(testState)?.areas.map(
+      (area: IArea) => area.name
+    );
     expect(testStateAreaNames).toEqual(
       expect.arrayContaining(["Surulere", "Itire-Ikate"])
     );

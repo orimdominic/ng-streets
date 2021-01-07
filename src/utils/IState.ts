@@ -1,6 +1,6 @@
-import {IArea} from './IArea'
+import { IArea } from "./IArea";
 
-export interface IState{
-  name: string
-  areas: Array<IArea>
+export interface IState {
+  name: string;
+  areas: Array<IArea>;
 }
