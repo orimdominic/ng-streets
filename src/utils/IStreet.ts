@@ -1,3 +1,3 @@
-export interface IStreet{
-  name: string
+export interface IStreet {
+  name: string;
 }
