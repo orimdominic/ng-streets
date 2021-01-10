@@ -1,102 +1,127 @@
 [
   {
     "name": "Abia",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Adamawa",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Akwa Ibom",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Anambra",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Bauchi",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Bayelsa",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Benue",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Borno",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Cross River",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Delta",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Ebonyi",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Edo",
+    "geoPol":"South South",
+    "areas": []
+  },
+  {
+    "name": "FCT-Abuja",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Ekiti",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Enugu",
-    "areas": []
-  },
-  {
-    "name": "Abuja",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Gombe",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Imo",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Jigawa",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kaduna",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kano",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Katsina",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kebbi",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kogi",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Kwara",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Lagos",
+    "geoPol":"South West",
     "areas": [
       {
         "name": "Surulere",
@@ -144,50 +169,62 @@
   },
   {
     "name": "Nassarawa",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Niger",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Ogun",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Ondo",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Osun",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Oyo",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Plateau",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Rivers",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Sokoto",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Taraba",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Yobe",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Zamfara",
+    "geoPol":"North West",
     "areas": []
   }
 ]
