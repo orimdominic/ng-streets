@@ -5,14 +5,14 @@ describe("getStates", (): void => {
     expect(typeof getStates).toEqual("function");
   });
 
-  test("returns an array with 37 items", (): void => {
+  test("returns an array of 37 items", (): void => {
     expect(Array.isArray(getStates())).toEqual(true);
     expect(getStates().length).toEqual(37);
   });
 
   test("contains randomly selected Nigerian states", (): void => {
-    expect(getStates()).toEqual(
-      expect.arrayContaining(["Lagos", "Benue", "Kebbi", "Yobe", "Abuja"])
+    expect(getStates().map((s) => s.name)).toEqual(
+      expect.arrayContaining(["Lagos", "Benue", "Kebbi", "Yobe", "FCT-Abuja"])
     );
   });
 });
