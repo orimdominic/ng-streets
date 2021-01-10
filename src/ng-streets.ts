@@ -2,25 +2,15 @@ import data from "./data/all.json";
 import { IState } from "./utils";
 
 /**
- * Returns an array of the contained of every state in Nigeria
- * @returns {Array<IState>}   an array containing the `name`, `areas` and `geoPol` of every state
+ * Returns an array of the name of every state in Nigeria
+ * @returns {Array}   an array containing the name of every state in Nigeria
  */
-const getStates = (): Array<IState> => {name
-  return [
-    ...data.sort((s1, s2) => {
-      if (s1.name.toLowerCase() < s2.name.toLowerCase()) {
-        return -1;
-      }
-      if (s1.name.toLowerCase() > s2.name.toLowerCase()) {
-        return 1;
-      }
-      return 0;
-    }),
-  ];
+const getStates = (): Array<string> => {
+  return data.map((state: { name: string }) => state.name);
 };
 
 /**
- * Returns the name, geoPol and areas data of a state
+ * Returns the name and areas data of a state
  * @param {string}  name - the name of the state
  * @returns {IState}   an object containing the name and areas data of a state
  */

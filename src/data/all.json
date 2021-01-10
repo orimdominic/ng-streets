@@ -1,127 +1,127 @@
 [
   {
     "name": "Abia",
-    "geoPol": "South East",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Adamawa",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Akwa Ibom",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Anambra",
-    "geoPol": "South East",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Bauchi",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Bayelsa",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Benue",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Borno",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Cross River",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Delta",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Ebonyi",
-    "geoPol": "South East",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Edo",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "FCT-Abuja",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Ekiti",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Enugu",
-    "geoPol": "South East",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Gombe",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Imo",
-    "geoPol": "South East",
+    "geoPol":"South East",
     "areas": []
   },
   {
     "name": "Jigawa",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kaduna",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kano",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Katsina",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kebbi",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Kogi",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Kwara",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Lagos",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": [
       {
         "name": "Surulere",
@@ -169,62 +169,62 @@
   },
   {
     "name": "Nassarawa",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Niger",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Ogun",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Ondo",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Osun",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Oyo",
-    "geoPol": "South West",
+    "geoPol":"South West",
     "areas": []
   },
   {
     "name": "Plateau",
-    "geoPol": "North Central",
+    "geoPol":"North Central",
     "areas": []
   },
   {
     "name": "Rivers",
-    "geoPol": "South South",
+    "geoPol":"South South",
     "areas": []
   },
   {
     "name": "Sokoto",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   },
   {
     "name": "Taraba",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Yobe",
-    "geoPol": "North East",
+    "geoPol":"North East",
     "areas": []
   },
   {
     "name": "Zamfara",
-    "geoPol": "North West",
+    "geoPol":"North West",
     "areas": []
   }
 ]
