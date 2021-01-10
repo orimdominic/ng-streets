@@ -2,8 +2,8 @@ import data from "./data/all.json";
 import { IState } from "./utils";
 
 /**
- * Returns an array of the contained of every state in Nigeria
- * @returns {Array<IState>}   an array containing the `name`, `areas` and `geoPol` of every state
+ * Returns an array of the contained data of every state in Nigeria
+ * @returns {Array<IState>}   an array containing the data of all states within the dataset
  */
 const getStates = (): Array<IState> => {name
   return [
@@ -20,9 +20,9 @@ const getStates = (): Array<IState> => {name
 };
 
 /**
- * Returns the name, geoPol and areas data of a state
+ * Returns the contained data of a state in the dataset
  * @param {string}  name - the name of the state
- * @returns {IState}   an object containing the name and areas data of a state
+ * @returns {IState}   an object containing the contained data of the state
  */
 const getState = (name: string): IState | undefined => {
   return data.find((state) => state.name.toLowerCase() === name.toLowerCase());
