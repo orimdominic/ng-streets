@@ -10,9 +10,19 @@ describe("getStates", (): void => {
     expect(getStates().length).toEqual(37);
   });
 
-  test("contains randomly selected Nigerian states", (): void => {
-    expect(getStates()).toEqual(
-      expect.arrayContaining(["Lagos", "Benue", "Kebbi", "Yobe", "Abuja"])
+  test("returns an array containing randomly selected Nigerian states", (): void => {
+    expect(getStates().map(s=>s.name)).toEqual(
+      expect.arrayContaining(["Lagos", "Benue", "Kebbi", "Yobe", "FCT-Abuja"])
     );
+  });
+
+  test("returns an array with every object having <IState> members", (): void => {
+    getStates().forEach((s) => {
+      expect(s).toStrictEqual(expect.objectContaining({
+        name: expect.any(String),
+        areas: expect.any(Array),
+        geoPol: expect.any(String)
+      }))
+    })
   });
 });
