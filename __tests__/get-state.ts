@@ -16,4 +16,14 @@ describe("getState", (): void => {
       expect.arrayContaining(["Surulere", "Itire-Ikate"])
     );
   });
+
+  test("returns an object of type <IState>", (): void => {
+    expect(getState(testState)).toStrictEqual(
+      expect.objectContaining({
+        name: expect.any(String),
+        areas: expect.any(Array),
+        geoPol: expect.any(String),
+      })
+    );
+  });
 });
