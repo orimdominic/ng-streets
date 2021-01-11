@@ -1,13 +1,20 @@
 {
   "name": "ng-streets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "umd": "dist/index.umd.js",
   "homepage": "https://github.com/sudo-kaizen/ng-streets",
   "repository": "git@github.com:sudo-kaizen/ng-streets.git",
-  "description": "",
+  "description": "A utility library for retrieving Nigerian states, local government areas and street names.",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "author": {
+    "name": "Orim Dominic Adah",
+    "url": "https://github.com/sudo-kaizen"
+  },
   "keywords": [
     "nigeria",
     "streets",
@@ -36,8 +43,8 @@
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js",
     "cleanup": "rm -rf dist",
-    "prepub": "yarn cleanup && yarn prettify && yarn build",
-    "pub": "np",
+    "prerelease": "yarn cleanup && yarn prettify && yarn build",
+    "release": "np",
     "test": "jest",
     "test:watch": "jest --watch",
     "prettify": "prettier --write ./src ./__tests__"
