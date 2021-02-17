@@ -1,18 +1,16 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via an issue.
-
-Please note we have a code of conduct, please follow it in all your interactions with the project.
-
 ## Pull Request Process
+
+Please follow this process if you are making a pull request that changes the working code (not the data in the `.json` file(s)).
 
 1. Update the README.md with details of changes to the interface, this includes new environment variables, a change in data structure, and container parameters. Also include this in your pull request message body.
 
-2. Make sure that you have not edited the test files, and that all tests pass before making a pull request.
+2. Make sure that you have not edited the test files, and that all tests pass before making a pull request. Run `yarn test` to verify this.
 
 3. Make pull requests to the `develop` branch only.
 
-4. Reference the issue number or the issue you are tring to resolve (if there is one) in your PR message.
+4. Reference the issue number or the issue you are trying to resolve (if there is one) in your PR message.
 
 5. Try to include a summary of the work you did in your PR message so that whoever is merging will have an idea of what the work is about.
 
