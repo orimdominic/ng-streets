@@ -6,20 +6,12 @@ A utility library for retrieving Nigerian states, local government areas and str
 
 ### Prerequisites
 
-- Node (>=8.10.0)
-- npm or Yarn
+- `Node (>=8.10.0)`
+- `npm or Yarn`
 
 ### Installing
 
-Add the package to your project from the npm registry using `npm` or `yarn` with
-
-```
-npm install ng-streets
-```
-or
-```
-yarn add ng-streets
-```
+Add the package to your project from the npm registry using `npm` or `yarn` with `npm install ng-streets` or `yarn add ng-streets`
 
 ## How to use
 
@@ -27,9 +19,9 @@ yarn add ng-streets
 <summary>Data types</summary>
 
 ```ts
-State: <name: string, geoPol: string, areas: Array<Area>>
-Area: <name: string, streets: Array<Street>>
-Street: <name:string>
+State: <{name: string, geoPol: string, areas: [Area]}>
+Area: <{name: string, streets: [Street]}>
+Street: <{name:string}>
 ```
 </details>
 
@@ -57,7 +49,7 @@ console.log(data);
 
 <details>
 <summary>getState</summary>
-Returns the contained data of a state in the dataset.
+Returns the contained data of a specific state in the dataset.
 
 * **name** name of the state
 
@@ -75,8 +67,6 @@ console.log(data);
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/sudo-kaizen/ng-streets/CONTRIBUTING.MD) for details on our code of conduct, and the process for submitting pull requests to us.
-
-To add street data without modifying the codebase, please fill the [Nigerian Streets Data form](https://forms.gle/2SdvUuEGPudnPFpY6).
 
 ## Versioning
 
